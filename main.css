@@ -4,9 +4,13 @@ body {
     background-color: lightblue;
 }
 
-.ordered {color:white;}
+.ordered {color:white;
+		  font-style: italic
+}
 
-.unordered {color:purple;}
+.unordered {color:purple;
+			font-weight: bold
+}
 
 .image1 { 
 	width: 500px;
@@ -16,14 +20,6 @@ body {
 .image2 { 
 	width: 500px;
     border-image: url(border.png) 30 round;
-}
-
-.ordered {
-    font-style: italic;
-}
-
-.unordered {
-    font-weight: bold;
 }
 
 .one {list-style-type: square;}
