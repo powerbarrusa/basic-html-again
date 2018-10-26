@@ -1,0 +1,31 @@
+.headers {color:blue;}
+
+body {
+    background-color: lightblue;
+}
+
+.ordered {color:white;}
+
+.unordered {color:purple;}
+
+.image1 { 
+	width: 500px;
+    border-image: url(border.png) 30 round;
+}
+
+.image2 { 
+	width: 500px;
+    border-image: url(border.png) 30 round;
+}
+
+.ordered {
+    font-style: italic;
+}
+
+.unordered {
+    font-weight: bold;
+}
+
+.one {list-style-type: square;}
+
+.two {list-style-type: circle;}
